@@ -189,8 +189,8 @@ form{
     color:#fff;
 }
 .gallery-item img{
-    height: 100px;
-    width: auto;
+    width: 100%;
+    height: auto;
 }
 .contactinfo{
 	position: relative;
