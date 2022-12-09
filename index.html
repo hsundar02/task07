@@ -48,24 +48,30 @@
 						  <a class="nav-link" href="#">About</a>
 						</li>
 						<li class="nav-item">
-						  <a class="nav-link" href="#">Service</a>
+						  <a class="nav-link" href="#">Services</a>
 						</li>
 						<li class="nav-item">
-						  <a class="nav-link" href="#">Department</a>
+						  <a class="nav-link" href="#">Departments</a>
 						</li>	
 						<li class="nav-item">
-						  <a class="nav-link" href="#">doctor</a>
+						  <a class="nav-link" href="#">Doctors</a>
 						</li>						
-						<li class="nav-item dropdown">
-						  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-							Dropdown
-						  </a>
-						  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li><a class="dropdown-item" href="#">Dropdown 1</a></li>
-							<li><a class="dropdown-item" href="#">Dropdown 2</a></li>
-							<li><a class="dropdown-item" href="#">Dropdown 3</a></li>
-							<li><a class="dropdown-item" href="#">Dropdown 4</a></li>					
-						  </ul>
+            <li class="navlink dropdown">
+              <a href="#">Dropdown<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                <ul class="dropdown_list">
+                    <li><a href="">Dropdown 1</a></li>
+                    <li class="dropdown_content"><a href="">Dropdown 2 <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                      <ul class="dropdown_content_sub">
+                        <li><a href="">Dropdown 1</a></li>
+                        <li><a href="">Dropdown 2</a></li>
+                        <li><a href="">Dropdown 3</a></li>
+                        <li><a href="">Dropdown 4</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="">Dropdown 3</a></li>
+                    <li><a href="">Dropdown 4</a></li>
+                </ul>		
+                </li>
 						<li class="nav-item">
 						  <a class="nav-link" href="#">Contact</a>
 						</li>
@@ -87,37 +93,38 @@
 				</div>
 			</div>
             <div class="row home_list align-center text-center">
-                <div class="col-3 alist1 bg-primary pt-5">
-                    <h4>Why Choose Medilab?</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <button class="btn btn-primary" type="submit">Learn More<i class="fa fa-chevron-right" aria-hidden="true"></i></button>
-                </div>
-                <div class="col-9 align_2">
-                    <div class="row ">	
-                        <div class="col-4 ms-3 me-3 alist2 bg-light pt-5">
-                            <i class="fa fa-file-text-o" aria-hidden="true"></i>
-                            <h5>Corporis voluptates sit</h5>
-                            <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>	
-                        </div>	
-                        <div class="col me-3 alist2 bg-light pt-5">
-                            <i class="fa fa-cube" aria-hidden="true"></i>
-                            <h5>Ullamco laboris ladore pan</h5>
-                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-                        </div>
-                        <div class="col me-3 alist2 bg-light pt-5">
-                            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-                            <h5>Labore consequatur</h5>
-                            <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
-                        </div>
-                    </div>		
-                </div>					
+                  <div class="col-4 alist1 bg-primary pt-4">
+                      <h5>Why Choose Medilab?</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Duis aute irure dolor in reprehenderit Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.</p>
+                      <button class="btn btn-primary" type="submit">Learn More<i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+                  </div>
+                  <div class="col-8 align_2">
+                      <div class="row ">	
+                          <div class="col-3 ms-3 me-3 alist2 bg-light pt-3">
+                              <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                              <h6>Corporis voluptates sit</h6>
+                              <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>	
+                          </div>	
+                          <div class="col-3 me-3 alist2 bg-light pt-3">
+                              <i class="fa fa-cube" aria-hidden="true"></i>
+                              <h6>Ullamco laboris ladore pan</h6>
+                              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                          </div>
+                          <div class="col-3 me-3 alist2 bg-light pt-3">
+                              <i class="fa fa-file-image-o" aria-hidden="true"></i>
+                              <h6>Labore consequatur</h6>
+                              <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                          </div>
+                      </div>		
+                  </div>					
             </div>
 		</div>	
 	</div>
     <section class="about mt-5">
-        <div class="container">
+        <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-6 about_img">
+            <div class="col-6 about_img">
             </div>
             <div class="col-6">
                 <div class="about_content">
@@ -239,6 +246,8 @@
           <div class="container">
             <div class="commonhead">
               <h4>Make an Appointment</h4>
+              <div class="underline">
+              </div>
               <p>It is optimized for learning and training.
                 Examples might be simplified to improve reading and learning.</p>
             </div>   
@@ -277,8 +286,7 @@
                         </div> 
                             <div class="col-12">   
                                 <div class="form-floating mt-3">
-                                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-                                    <label for="floatingTextarea">Comments</label>
+                                    <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)" id="floatingTextarea"></textarea>
                                 </div>
                             </div>    
                     <button class="btn btn-primary" type="submit">Make an Appointment</button>  
@@ -289,6 +297,8 @@
       <div class="container">
         <div class="commonhead">
           <h2>Departments</h2>
+          <div class="underline">
+          </div>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
         <div class="row">
@@ -311,12 +321,13 @@
               </li>
             </ul>
           </div>
-          <div class="col-lg-9">
+          <div class="col-9">
             <div class="tab-content">
               <div class="tab-pane active show" id="tab-1">
                 <div class="row">
                   <div class="col-8">
                     <h3>Cardiology</h3>
+                    
                     <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
                     <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
                   </div>
@@ -382,6 +393,8 @@
         <div class="container">  
             <div class="commonhead">
                 <h4>Doctors</h4>
+                <div class="underline">
+                </div>
                 <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. 
                     Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
             </div>
@@ -465,6 +478,8 @@
         <div class="container">
           <div class="commonhead">
             <h4>Frequently Asked Questions</h4>
+            <div class="underline">
+            </div>
             <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. 
                 Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
           </div>
@@ -534,6 +549,8 @@
         <div class="container">
           <div class="commonhead">
             <h4>Gallery</h4>
+            <div class="underline">
+            </div>
             <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
           </div>
         </div>
@@ -710,13 +727,22 @@
         </div>		
     </section>
     <section>
-        <div class="social_link">
-            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-        </div>
+      <section class="copyright">
+        <div class="container">
+          <div class="row col-12 copy_rights">
+            <div class="col-6 copy_rights1">
+              <h6> © Copyright <b>Medilab</b> All Rights Reserved</h6>
+              <p>Designed by <a href="">Hari Sundar A</a></p>	
+            </div>				
+            <div class="col-6 social_link justify-content-end">
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+          </div> 
+        </div> 
     </section>
 
     <script src="./js/bootstrap.bundle.min.js"></script>
