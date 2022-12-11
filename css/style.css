@@ -3,7 +3,7 @@ body{
     color: #444444;
   }
 a{
-    /* color: #1977cc; */
+    color: #1977cc;
     text-decoration: none;
 }
 .navbar-expand-lg .navbar-nav {
@@ -355,8 +355,32 @@ form{
     background: #f1f7fd;
     padding: 60px 0;
 }
-.faq-list ul{
-    list-style: none;
+
+.testimonial{
+   
+}
+.testimonial-item{
+    position: relative;
+    box-shadow: 0px 2px 12px rgb(44 73 100 / 8%);
+}
+.testimonial-item h3,.testimonial-item h4,.testimonial-item p{
+    padding-left: 40px;
+}
+
+.testimonial-item img{
+    width: 90px;
+    border-radius: 10px;
+    border: 6px solid #fff;
+    position: absolute;
+    top: 3px;
+     left: -65px;
+    margin: 12px;
+} 
+.tab-pane h3{
+    color: #444444;
+}
+.tab-pane p{
+    color: #444444;
 }
 .contactinfo{
 	position: relative;
