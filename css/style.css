@@ -80,7 +80,7 @@ a{
     position: relative;
     border-bottom: 1px solid grey;
     display: block;
-    margin: 0 auto;
+    margin: 17px auto;
     max-width: 140px;
 } 
 .underline:after{
@@ -148,7 +148,7 @@ a{
     text-align: left;
     color: white;
     border-radius: 5px;
-    padding-right: 50px;
+    padding-right: 25px;
     font-size: 15px;
 }
 .alist1 p{
@@ -168,7 +168,7 @@ a{
 }
 .align_2{  
     text-align: center;
-    margin-left: 220px;
+    margin-left: 180px;
 }
 .align_2 i{
     font-size: 30px;
@@ -176,7 +176,7 @@ a{
     color: #1977cc
 }
 .align_2 p{
-    font-size: 13px;
+    font-size: 12px;
 }
 .alist2{
 	border: 0px solid black;
@@ -207,33 +207,33 @@ a{
     margin-left: 10px;
 }
 .about_content h4{
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 600;
 }
 .about_content1 i{
     position: absolute;
     left: 0;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     text-align: center;
     color: #1977cc;
     border: 1px solid #1977cc;
     border-radius: 50%;
-    font-size: 25px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 47px;
 }
 .about_content1 i:hover{
     color: #fff;
     background-color: #1977cc;
 }
 .about_content1 h5{
-    font-size: 15px;
+    font-size: 22px;
     font-weight: 700;
     padding-bottom: 5px;
     padding-left: 55px;
 }
 .about_content1 p{
-    font-size: 12px;
+    font-size: 17px;
     padding-left: 55px;
 }
 
@@ -254,8 +254,7 @@ a{
     font-size: 24px;
     position: absolute;
     top: -25px;
-    right: 131px;
-    text-align: center;
+    right: 44%;
     line-height: 40px;
 }
 
@@ -304,25 +303,31 @@ a{
     background: #f1f7fd;
     padding: 60px 0;
 }
-
 form{
 	text-align: center;
     line-height: 60px;
 }
+.form-floating>.form-control, .form-floating>.form-select {
+    height: 0;
+    line-height: 0;
+}
 .form-floating>.form-control {
-    padding: 4rem 0.75rem;
+    padding: 40px;
 }
 .doc_picture img{
     height: 180px;
     width: 180px;
     border-radius: 50%;
 }
-.doc_picture img:hover{
+.doctors_list:hover .doc_picture img{
     transform: scale(1.1);
 }
 .doctors-info{
     padding-left: 30px;
-}    
+}  
+.doctors_list{
+    transition: all 0.5s ease;
+}  
 .social a i{
     width: 40px;
     height: 40px;
@@ -341,29 +346,61 @@ form{
 .departments{
     padding: 60px 0;
 }
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border: none;
+  
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-color: #eee;
+    border-right: 3px solid #1977cc;
+}
+.gallery-item{
+    overflow: hidden;
+}
 .gallery-item img{
     width: 100%;
     height: auto;
+    transition: all 0.3s ease;
 }
 .gallery{
     padding: 60px 0;
 }
+.gallery-item img:hover{
+    transform: scale(1.2);
+}
 .doctors{
     padding: 60px 0;
+}
+.doctors-info h5{
+    position: relative;
+    padding-bottom: 10px;
+}
+.doctors-info h5::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 73px;
+    height: 1px;
+    background: #b2c8dd;
+    bottom: 0;
+    top: 28px;
+    left: 0;
+    margin: 5px 0;
 }
 .faq{
     background: #f1f7fd;
     padding: 60px 0;
 }
-
-.testimonial{
-   
+.swiper-slide{
+    box-shadow: 0px 2px 7px #bfdcee;
 }
+
 .testimonial-item{
     position: relative;
     box-shadow: 0px 2px 12px rgb(44 73 100 / 8%);
 }
-.testimonial-item h3,.testimonial-item h4,.testimonial-item p{
+.testimonial-item h4,.testimonial-item h5,.testimonial-item p{
     padding-left: 40px;
 }
 
@@ -376,6 +413,9 @@ form{
      left: -65px;
     margin: 12px;
 } 
+.testimonial-item i{
+    color: #1977cc;
+}
 .tab-pane h3{
     color: #444444;
 }
@@ -446,14 +486,20 @@ textarea.form_input {
 .footer-section p{
 	color: #151515;
 }
-.Useful-links ul>li>a{
+.useful-links h4{
+    color: #444444;
+}
+.useful-links1 h3{
+    color: #444444;
+}
+.useful-links ul>li>a{
 	color:#151515;
 	text-decoration: none;
 }
-.Useful-links li{
+.useful-links li{
     list-style: none;
 }
-.Useful-links ul>li>i{
+.useful-links ul>li>i{
 	color:#1977cc;
 }
 .section1 {
@@ -461,6 +507,17 @@ textarea.form_input {
 }
 .section1 h2{
 	font-size: 26px;
+    color: #444444;
+}
+
+.subscribe.subscribe_input{
+    border-radius: 50px;
+    position: relative;
+}
+.subsc{
+    position: absolute;
+    right: 140px;
+    width: 130px;
 }
 .social_link{
 	display: flex;

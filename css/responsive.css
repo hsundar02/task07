@@ -1,0 +1,44 @@
+@media (max-width: 576px){	
+	.doc_picture img{
+		height: 80px;
+		width: 80px;
+		border-radius: 50%;
+	}
+	.doctors_list{
+		box-shadow: 0px 2px 15px rgb(44 73 100 / 8%);
+		padding: 30px;
+		border-radius: 10px;
+	}
+	.gallery-item img{
+		padding-bottom: 3px;
+	}
+	.copy_rights{
+		text-align: center;
+	}
+	.subsc {
+		position: absolute;
+		right: 9px;
+		width: 120px;
+	}
+}
+@media (min-width: 576px){
+	.doc_picture img{
+		height: 80px;
+		width: 80px;
+		border-radius: 50%;
+	}
+}
+@media (min-width: 768px){
+
+}
+@media (min-width: 992px){
+	.subsc {
+		position: absolute;
+		right: 68px;
+		width: 120px;
+	}
+}
+
+@media (min-width: 1200px){
+
+}
