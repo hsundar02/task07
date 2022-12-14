@@ -20,6 +20,16 @@
 		right: 9px;
 		width: 120px;
 	}
+	.about:after {
+		display: none;
+	}
+	.align_2 {
+		text-align: center;
+		/* margin-right: 0; */
+		/* position: absolute; */
+		right: 0;
+		/* padding-top: 251px; */
+	}
 }
 @media (min-width: 576px){
 	.doc_picture img{

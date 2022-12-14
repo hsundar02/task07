@@ -126,7 +126,7 @@ a{
     position: relative;
     background-image: linear-gradient(#ffffff40, #2196f326), url(../assets/hero-bg.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center top;
     background-attachment: fixed;
 }
@@ -142,14 +142,14 @@ a{
     bottom: 70px;
 }
 .alist1{  
-    position: absolute;
-    top: -35px;
     border: 0px solid black;
     text-align: left;
     color: white;
     border-radius: 5px;
-    padding-right: 25px;
     font-size: 15px;
+}
+.sub_home{
+    padding-bottom: 230px;
 }
 .alist1 p{
     font-size: 13px;
@@ -166,10 +166,6 @@ a{
     background: #fff;
     color: #1977cc
 }
-.align_2{  
-    text-align: center;
-    margin-left: 180px;
-}
 .align_2 i{
     font-size: 30px;
     line-height: 70px;
@@ -182,6 +178,9 @@ a{
 	border: 0px solid black;
 	border-radius: 5px;
 	top: 0;
+    background: #fff;
+    box-shadow: 0 0 5px #ccc;
+    padding: 30px 20px;
 }
 .about{
     padding: 60px 0;
