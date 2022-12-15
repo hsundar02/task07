@@ -1,4 +1,12 @@
 @media (max-width: 576px){	
+
+	.home .text h2 {
+		font-size: 29px;
+		font-weight: 700;
+	}
+	.home .text h3 {
+		font-size: 20px;
+	}
 	.doc_picture img{
 		height: 80px;
 		width: 80px;
@@ -30,7 +38,18 @@
 		right: 0;
 		/* padding-top: 251px; */
 	}
+	.about_img img{
+			width: 100%;
+			margin-bottom: 30px;
+	}
+	.d-block{
+		display: block !important;
+	}
+	.d-none{
+		display: none !important;
+	}
 }
+
 @media (min-width: 576px){
 	.doc_picture img{
 		height: 80px;
@@ -40,13 +59,48 @@
 }
 @media (min-width: 768px){
 
+		.about_img{
+			background-image: url(../assets/about.jpg);
+			background-position: center;
+			background-size: cover;
+		}
+		.about_sub i{
+			right: 44%;
+		}	
+
+		.doc_picture img {
+			height: 150px;
+			width: 150px;
+
+		}
+		.social a i {
+			width: 35px;
+			height: 35px;
+			font-size: 19px;
+			line-height: 35px;
+		}
+
+
 }
 @media (min-width: 992px){
+	
 	.subsc {
 		position: absolute;
 		right: 68px;
 		width: 120px;
 	}
+	.about:after{
+		content: "";
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 43%;
+		height: 90%;
+		background-image: url(../assets/about.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+
 }
 
 @media (min-width: 1200px){

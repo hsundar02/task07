@@ -6,6 +6,9 @@ a{
     color: #1977cc;
     text-decoration: none;
 }
+.menu-bar{
+    box-shadow: 0 0 5px #ccc;
+}
 .navbar-expand-lg .navbar-nav {
     align-items: center;
 }
@@ -102,6 +105,9 @@ a{
 }
 .head2 i{
     font-size: 16px;
+    color: #437099;
+}
+.head2 i:hover{
     color: #1977cc;
 }
 .logo{
@@ -129,6 +135,7 @@ a{
     background-size: cover;
     background-position: center top;
     background-attachment: fixed;
+    margin-bottom: -165px;
 }
 .home .text{
     padding: 200px 40px 200px 0;
@@ -139,20 +146,25 @@ a{
 }
 .home_list{
     position: relative;
-    bottom: 70px;
 }
 .alist1{  
     border: 0px solid black;
-    text-align: left;
     color: white;
     border-radius: 5px;
     font-size: 15px;
+    padding: 40px 30px;
+
 }
 .sub_home{
-    padding-bottom: 230px;
+    padding-bottom: 60px;
+}
+.alist1 h4{
+    font-size: 40px;
+    margin-bottom: 30px;
 }
 .alist1 p{
-    font-size: 13px;
+    font-size: 14px;
+    margin-bottom: 30px;
 }
 .alist1 .btn{
     display: inline-block;
@@ -172,7 +184,7 @@ a{
     color: #1977cc
 }
 .align_2 p{
-    font-size: 12px;
+    font-size: 14px;
 }
 .alist2{
 	border: 0px solid black;
@@ -181,24 +193,16 @@ a{
     background: #fff;
     box-shadow: 0 0 5px #ccc;
     padding: 30px 20px;
+    text-align: center;
+}
+.alist2 h5{
+    font-weight: 700;
+    margin-bottom: 25px;
+    margin-top: 20px;
 }
 .about{
     padding: 60px 0;
     position: relative;
-}
-.about:after{
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 43%;
-    height: 90%;
-    background-image: url(../assets/about.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.about_img{
- display: none;
 }
 .about_content{  
     font-size: 15px;
