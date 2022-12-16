@@ -210,14 +210,13 @@ a{
     padding: 60px 0;
     position: relative;
 }
-.about_content{  
-    font-size: 15px;
-	position: relative;
-    margin-left: 10px;
-}
+
 .about_content h4{
     font-size: 28px;
     font-weight: 600;
+}
+.about_content1{
+    position: relative;
 }
 .about_content1 i{
     position: absolute;
