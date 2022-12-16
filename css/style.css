@@ -369,6 +369,7 @@ form{
 }
 .gallery-item img{
     width: 100%;
+    padding: 1px;
     height: auto;
     transition: all 0.3s ease;
 }
