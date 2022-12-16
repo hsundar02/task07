@@ -337,7 +337,7 @@ form{
 .doctors_list{
     border-radius: 5px;
     transition: all 0.5s ease;
-    box-shadow: 0px 2px 15px rgb(0 0 0 / 39%);
+    box-shadow: 0px 2px 15px rgb(44 73 100 / 8%);
     min-height: 208px;
     padding: 30px 20px;
 }  
